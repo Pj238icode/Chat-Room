@@ -1,4 +1,3 @@
-![5_what_is_the_chatroom_feature_cover](https://github.com/user-attachments/assets/aea6c429-f8c1-4039-aac7-b4adc34dd485)
 # Chat Room
 
 Welcome to the Chat Room project! This repository contains the code and resources for a real-time chat application developed with PHP.
@@ -7,7 +6,6 @@ Welcome to the Chat Room project! This repository contains the code and resource
 
 - **Real-Time Messaging:** Users can send and receive messages instantly.
 - **User Authentication:** Secure login and registration.
-
 - **User Presence:** View online users.
 
 
@@ -42,7 +40,7 @@ To set up the Chat Room application, follow these steps:
 
 5. **Update Configuration:**
 
-    Edit `config.php` to set up your database connection. You need to update:
+    Edit `config.php` to set up your database connection. Update the file with your database details:
 
     ```php
     <?php
@@ -53,7 +51,17 @@ To set up the Chat Room application, follow these steps:
     ?>
     ```
 
-6. **Start the Web Server:**
+6. **Start the WebSocket Server:**
+
+    Open a terminal and navigate to the project directory, then run:
+
+    ```bash
+    php bin/chat-server.php
+    ```
+
+    This command starts the WebSocket server which handles real-time messaging.
+
+7. **Start the Web Server:**
 
     Place the project directory in your web server's root directory (e.g., `htdocs` for XAMPP). Then navigate to `http://localhost/chat-room` in your web browser.
 
@@ -63,9 +71,9 @@ After setting up the application, you can:
 
 - **Register:** Create a new account.
 - **Login:** Access your account with your credentials.
-- **Join a Room:** Enter an existing chat room or create a new one.
+- **Join a Room:** Enter an existing chat room.
 - **Send Messages:** Communicate with other users in real-time.
-- **Upload Files:** Share media and documents.
+
 
 ## Development
 
@@ -101,7 +109,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions or support, please reach out to (mailto:jena.prasanjeet2003@gmail.com).
+For questions or support, please reach out to [your-email@example.com](mailto:your-email@example.com).
 
 Happy coding! 🚀
+
 
