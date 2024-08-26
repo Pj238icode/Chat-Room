@@ -101,7 +101,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions or support, please reach out to [your-email@example.com](mailto:jena.prasanjeet2003@gmail.com).
+For questions or support, please reach out to (mailto:jena.prasanjeet2003@gmail.com).
 
 Happy coding! 🚀
 
